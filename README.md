@@ -6,6 +6,14 @@ This script only works for password-less keys (DO NOT SET A PASSWORD) *This is d
 
 *Works with crDroid 8.x+ or lineage19.1+*
 
+### run on crave 
+```
+# Signing
+curl -O https://raw.githubusercontent.com/Gtajisan/crDroid-build-signed-script/crdroid/create-signed-env.sh
+chmod +x create-signed-env.sh
+./create-signed-env.sh
+```
+
 ## How to run
 1. Download the script in your root build directory and run it
 
