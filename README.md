@@ -13,6 +13,14 @@ curl -O https://raw.githubusercontent.com/Gtajisan/crDroid-build-signed-script/c
 chmod +x create-signed-env.sh
 ./create-signed-env.sh
 ```
+```
+# Signing
+# curl -O https://raw.githubusercontent.com/tavukkdoner/crDroid-build-signed-script/crdroid/create-signed-env.sh
+# chmod +x create-signed-env.sh
+# ./create-signed-env.sh
+
+cp -r lineage-priv/ vendor
+```
 
 ## How to run
 1. Download the script in your root build directory and run it
